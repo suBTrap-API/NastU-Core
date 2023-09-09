@@ -1,5 +1,5 @@
 ## What is this?
-*  Free core for bot VK. Your can see example command-plugin in the project
+*  Free core for bot VK. Your can see command-plugin example in the project
 
 
 ## Author
