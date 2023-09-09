@@ -31,12 +31,7 @@ public class anime {
     public static String pics() {
         String arg = "neko";
         if(!Event.args.isEmpty()){
-            String args = Event.args.get(0);
-            if (Arrays.asList("waifu", "вайфу").contains(args)) {
-                arg = "waifu";
-            } else {
-                arg = args;
-            }
+            arg = Event.args.get(0);
         }
         String url = Utils.request("https://api.waifu.pics/sfw/"+arg).getString("url");
         SendFile.file(url, event, "Вот твоё "+arg+" :D");
