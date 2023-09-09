@@ -12,9 +12,9 @@ public class test {
     static LongPoolEvent event;
     public test(LongPoolEvent e) {
         event = e;
-        dp.longpoll_event_register("example", "example", "test", "t");
+        dp.longpoll_event_register("exampleFunc", "example", "test", "t");
     }
-    public static String example() {
+    public static String exampleFunc() {
         JSONObject user = Utils.getUserData(Database.instance.owner_id);
         String last = user.getString("last_name");
         String first = user.getString("first_name");
