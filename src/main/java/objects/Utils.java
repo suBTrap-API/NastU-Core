@@ -92,7 +92,8 @@ public class Utils extends JsonUtils {
             try (CloseableHttpResponse response1 = httpClient1.execute(request)) {
                 HttpEntity entity1 = response1.getEntity();
                 if (entity1 != null) {
-                    file = new File("image.png");
+                    String[] fileName = path.split("/");
+                    file = new File(fileName[fileName.length-1].split("\\?")[0]);
                     try(FileOutputStream outputStream = new FileOutputStream(file)){
                         entity1.writeTo(outputStream);
                     }
