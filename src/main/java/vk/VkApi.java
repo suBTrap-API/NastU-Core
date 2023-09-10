@@ -53,7 +53,16 @@ public class VkApi extends Methods{
                 }
             }
         }
-        if(response) return new JSONObject(result.toString()).get("response").toString();
+        if(response){
+            JSONObject jsonObject = new JSONObject(result.toString());
+            String res = jsonObject.toString();
+            if(jsonObject.has("response")){
+                res = jsonObject.get("response").toString();
+            } else if(jsonObject.has("error")){
+                res = jsonObject.get("error").toString();
+            }
+            return res;
+        }
         else return result.toString();
     }
 
