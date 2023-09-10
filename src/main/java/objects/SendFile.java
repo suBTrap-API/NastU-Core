@@ -35,6 +35,7 @@ public class SendFile {
                 "server="+uploaded.get("server"), "photo="+uploaded.get("photo"), "hash="+uploaded.get("hash")));
         JSONObject att = new JSONObject(a.get(0).toString());
         event.msg_op(mode, text, "photo"+att.get("owner_id")+"_"+att.get("id"));
+        VkApi.call("docs.delete", "owner_id="+att.get("owner_id"), "doc_id="+att.get("id"));
 
     }
 
@@ -50,6 +51,7 @@ public class SendFile {
         JSONObject att = new JSONObject(a.get("graffiti").toString());
         event.msg_op(1, "", "doc"+att.get("owner_id")+"_"+att.get("id"));
         event.msg_op(3);
+        VkApi.call("docs.delete", "owner_id="+att.get("owner_id"), "doc_id="+att.get("id"));
     }
 
     public static void file(String file, LongPoolEvent event) {
@@ -81,5 +83,6 @@ public class SendFile {
                 "file="+uploaded.get("file")));
         JSONObject att = new JSONObject(a.get("doc").toString());
         event.msg_op(mode, text, "doc"+att.get("owner_id")+"_"+att.get("id"));
+        VkApi.call("docs.delete", "owner_id="+att.get("owner_id"), "doc_id="+att.get("id"));
     }
 }
