@@ -106,7 +106,7 @@ public class Logger {
             color_string += "\033[" + foregroundColors.get(foregroundColor) + "m \r";
         }
         if(backgroundColors.containsKey(backgroundColor)){
-            color_string += "\033[" + backgroundColors.get(foregroundColor) + "m \r";
+            color_string += "\033[" + backgroundColors.get(backgroundColor) + "m \r";
         }
         color_string += string + "\033[0m";
         return color_string;
