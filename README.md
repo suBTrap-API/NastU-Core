@@ -8,3 +8,7 @@
 	<a href="https://discord.com/channels/@me/604195345202675716"><img src="https://img.shields.io/badge/Discord-@subtrap-black?logo=discord&logoColor=blue&style=plastic&labelColor=gray" alt="Discord"/></a>
 	
 </p>
+
+##⭐ Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/suBTrap-API/NastU-Core.svg)](https://starchart.cc/suBTrap-API/NastU-Core)
