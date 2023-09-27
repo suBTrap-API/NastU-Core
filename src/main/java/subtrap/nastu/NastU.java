@@ -43,7 +43,7 @@ public class NastU {
         run();
     }
     public static void run() throws Exception {
-        logger.info("subtrap.nastu.NastU Running...");
+        logger.info("NastU Running...");
         try {
             longpool = new LongPool(vk);
             new PluginLoader(event);
