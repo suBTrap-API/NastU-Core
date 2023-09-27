@@ -5,7 +5,7 @@
 
 ### Run from command:
 
-NastU requires a minimum Java version of 19, please install it yourself and configure the environment
+NastU-Core requires a minimum Java version of 19, please install it yourself and configure the environment
 variables.
 
 1. Download nastu-core.jar from [release](https://github.com/suBTrap-API/NastU-Core/releases)
@@ -14,6 +14,26 @@ variables.
 ```
 java -jar NastU-Core.jar
 ```
+
+---
+🛠 Creating Plugins
+---
+
+* Add NastU-Core to your dependencies (it is dont hosted by Maven Central, so you needed to specify a custom repository)
+  .
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.subtrap.nastu-core</groupId>
+        <artifactId>NastU-Core</artifactId>
+        <version>1.0.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/src/main/lib/NastU-Core.jar</systemPath>
+    </dependency>
+</dependencies>
+```
+---
 
 ## Author
 <p align="left">
