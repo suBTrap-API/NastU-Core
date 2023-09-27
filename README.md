@@ -9,6 +9,6 @@
 	
 </p>
 
-##⭐ Stargazers over time
+## ⭐ Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/suBTrap-API/NastU-Core.svg)](https://starchart.cc/suBTrap-API/NastU-Core)
