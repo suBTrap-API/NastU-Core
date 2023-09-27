@@ -11,7 +11,7 @@ variables.
 1. Download nastu-core.jar from [release](https://github.com/suBTrap-API/NastU-Core/releases)
 2. Run the following command
 
-```
+```py
 java -jar NastU-Core.jar
 ```
 
