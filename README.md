@@ -1,6 +1,19 @@
-## What is this?
+## 🤔 What is this?
 *  Free core for bot VK. Your can see command-plugin example in the project
 
+## ⚙️ How to use
+
+### Run from command:
+
+NastU requires a minimum Java version of 19, please install it yourself and configure the environment
+variables.
+
+1. Download nastu-core.jar from [release](https://github.com/suBTrap-API/NastU-Core/releases)
+2. Run the following command
+
+```
+java -jar NastU-Core.jar
+```
 
 ## Author
 <p align="left">
