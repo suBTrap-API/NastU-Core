@@ -1,0 +1,42 @@
+package subtrap.nastu.network.vk;
+
+public class Methods {
+    public static String addChatUser = "messages.addChatUser";
+    public static String allowMessagesFromGroup = "messages.allowMessagesFromGroup";
+    public static String createChat = "messages.createChat";
+    public static String delete = "messages.delete";
+    public static String deleteChatPhoto = "messages.deleteChatPhoto";
+    public static String deleteConversation = "messages.deleteConversation";
+    public static String denyMessagesFromGroup = "messages.denyMessagesFromGroup";
+    public static String edit = "messages.edit";
+    public static String editChat = "messages.editChat";
+    public static String getByConversationMessageId = "messages.getByConversationMessageId";
+    public static String getById = "messages.getById";
+    public static String getChat = "messages.getChat";
+    public static String getChatPreview = "messages.getChatPreview";
+    public static String getConversationMembers = "messages.getConversationMembers";
+    public static String getConversations = "messages.getConversations";
+    public static String getConversationsById = "messages.getConversationsById";
+    public static String getHistory = "messages.getHistory";
+    public static String getHistoryAttachments = "messages.getHistoryAttachments";
+    public static String getImportantMessages = "messages.getImportantMessages";
+    public static String getInviteLink = "messages.getInviteLink";
+    public static String getLastActivity = "messages.getLastActivity";
+    public static String getLongPollHistory = "messages.getLongPollHistory";
+    public static String getLongPollServer = "messages.getLongPollServer";
+    public static String isMessagesFromGroupAllowed = "messages.isMessagesFromGroupAllowed";
+    public static String joinChatByInviteLink = "messages.joinChatByInviteLink";
+    public static String markAsAnsweredConversation = "messages.markAsAnsweredConversation";
+    public static String markAsImportant = "messages.markAsImportant";
+    public static String markAsImportantConversation = "messages.markAsImportantConversation";
+    public static String markAsRead = "messages.markAsRead";
+    public static String pin = "messages.pin";
+    public static String removeChatUser = "messages.removeChatUser";
+    public static String restore = "messages.restore";
+    public static String search = "messages.search";
+    public static String searchConversations = "messages.searchConversations";
+    public static String send = "messages.send";
+    public static String setActivity = "messages.setActivity";
+    public static String setChatPhoto = "messages.setChatPhoto";
+    public static String unpin = "messages.unpin";
+}
