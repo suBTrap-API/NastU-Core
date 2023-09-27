@@ -1,5 +1,5 @@
 ## 🤔 What is this?
-*  Free core for bot VK. Your can see command-plugin example in the project
+*  Free core for bot VK.
 
 ## ⚙️ How to use
 
@@ -19,7 +19,7 @@ java -jar NastU-Core.jar
 🛠 Creating Plugins
 ---
 
-* Add NastU-Core to your dependencies (it is dont hosted by Maven Central, so you needed to specify a custom repository)
+* Add NastU-Core to your dependencies (it is don't hosted by Maven Central, so you needed to specify a custom repository)
   .
 
 ```xml
